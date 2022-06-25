@@ -20,7 +20,7 @@ function showResult() {
       break;
     } else if (operation === "*" || operation.includes("multiply")) {
       result = num1 * num2;
-      alert(`Multiplication of ${num2} by ${num1} is ${result}`);
+      alert(`${num1} times ${num2} is ${result}`);
       break;
     } else if (operation === "/" || operation.includes("divide")) {
       result = num1 / num2;
